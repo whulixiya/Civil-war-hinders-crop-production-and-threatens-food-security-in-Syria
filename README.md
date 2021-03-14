@@ -14,3 +14,6 @@ Code was written in a combination of Python, Javascript, matlab.
 
 ## Summary of scripts
 (1) The 'classification' folder contains codes for generating land cover classification results. It was run on the platform of google earth engine and High Performance Computing Center Texas tech university.
+(2) The 'Quantitative experiment' folder contains codes for generating related quantative experiments. It was run on the platform of PC.
+
+
