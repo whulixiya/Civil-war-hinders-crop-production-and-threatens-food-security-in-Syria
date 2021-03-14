@@ -1,3 +1,4 @@
+%% Figure 4
 clear
 Cropfile='E:\temp\Syria_sample\Panel_source_data\1KM\Syria_Crop98_19_1KM_areaCoe.tif';
 [Crop,R]=geotiffread(Cropfile); 
@@ -7,7 +8,7 @@ info=geotiffinfo(Cropfile);
 
 
 %%PRE
-fpath ='E:\temp\Syria_sample\Results\Fishnet_1KM\Predict-cdr\cropf.txt';  %这里是文件夹的名字
+fpath ='E:\temp\Syria_sample\Results\Fishnet_1KM\Predict-cdr\cropf.txt';  %脮芒脌茂脢脟脦脛录镁录脨碌脛脙没脳脰
 fid=fopen(fpath);
 [num_Crop_pre] =  textscan(fid,'%s','delimiter',',');
 fclose(fid);
