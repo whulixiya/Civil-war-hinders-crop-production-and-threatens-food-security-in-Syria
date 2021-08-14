@@ -102,8 +102,11 @@ mask_nan_dis=np.isnan(DIS_data) | np.isnan(Crop_data_change)
 mask_nan_dis=mask_nan_dis | (Crop_data_change==0)
 
 
+#https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.winsorize.html
+##The outliers were handled by winsorizing with the threshold of 5%.
+#the threshold for scipy.stats.mstats.winsorize should be [0.05, 0.05], which indicates the 5% of the lowest value and the 5% of the highest values are replaced by the 5%th percentile and 95%th percentile, respectively.
 
-Crop_data_change=winsorize(Crop_data_change,limits=[0.05,0.05])   ##The outliers were handled by winsorizing with the threshold of 5%. https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.winsorize.html
+Crop_data_change=winsorize(Crop_data_change,limits=[0.05,0.05])   
 DrawScatterDensity(DIS_data[~mask_nan_dis],Crop_data_change[~mask_nan_dis],'Wartime(2012-2019)')
 
 Crop_stat_change_2012=winsorize(Crop_stat_change_2012,limits=[0.05,0.05])
