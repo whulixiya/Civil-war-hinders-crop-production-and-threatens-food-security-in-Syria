@@ -1,7 +1,7 @@
 clear
 
 [mask,~]=geotiffread('E:\temp\Syria_sample\Panel_source_data\25KM\Syria_Crop_lt50_mask_25KM.tif');   
-[Crop,~]=geotiffread('E:\temp\Syria_sample\Panel_source_data\25KM\Syria_Crop98_19_25KM.tif');   
+[Crop,~]=geotiffread('E:\temp\Syria_sample\Panel_source_data\25KM\Syria_Crop98_19_25KM_areaCoe.tif');   
 Crop=Crop(:,:,1:22);  %%1998-2019
 [CDR,~]=geotiffread('E:\temp\Syria_sample\Panel_source_data\25KM\CDR_sum_9819_25KM.tif');   
 
@@ -40,7 +40,7 @@ K=1;
 for i =1:Fishnet_num
     for j=yearStart:yearEnd
         K=K+1;
-        A{K,1}=OBJECTID(i);   %%ID第一�?
+        A{K,1}=OBJECTID(i);   %%IDç¬¬ä¸€åˆ?
     end
 end
 
@@ -48,7 +48,7 @@ K=1;
 for i =1:Fishnet_num
     for j=yearStart:yearEnd
         K=K+1;
-        A{K,2}=j;   %%年份第二�?
+        A{K,2}=j;   %%å¹´ä»½ç¬¬äºŒåˆ?
     end
 end
 
