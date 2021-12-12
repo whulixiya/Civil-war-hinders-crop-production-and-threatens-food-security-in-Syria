@@ -1,8 +1,11 @@
-# Satellite-assessment-of-the-impact-of-Syrian-civil-war-on-extent-of-cultivated-cropland
+# Civil war hinders crop production and threatens 
+food security in Syria
 
 ## Authors
 Analysis was designed by Xiao-Peng Song, Xi Li, Ziying Fan, and Xiya Li.
 Code was written by Xiya Li.
+
+
 
 ## Data
 Replication data is available at https://drive.google.com/drive/folders/1Ldkl_kJ9zsFJbn4diP2-FbQSqbQG2EiE?usp=sharing.
