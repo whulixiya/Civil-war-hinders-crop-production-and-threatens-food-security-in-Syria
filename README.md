@@ -8,7 +8,7 @@ Code was written by Xiya Li.
 
 
 ## Data
-Replication data is available at https://drive.google.com/drive/folders/1Ldkl_kJ9zsFJbn4diP2-FbQSqbQG2EiE?usp=sharing.
+The data used in this study are available at https://drive.google.com/drive/folders/1Ldkl_kJ9zsFJbn4diP2-FbQSqbQG2EiE?usp=sharing. Annual productive cropland maps (30 m) and NTL maps (1 km) are also available at Zenodo (https://zenodo.org/record/5706374#.YZQstmDMIuU). Precipitation data are downloadable at: https://chrsdata.eng.uci.edu/. Source data are provided with this paper.
 
 
 ## Dependencies
