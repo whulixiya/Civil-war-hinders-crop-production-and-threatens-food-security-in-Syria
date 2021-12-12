@@ -1,5 +1,5 @@
-# Civil war hinders crop production and threatens 
-food security in Syria
+# Civil war hinders crop production and threatens food security in Syria
+
 
 ## Authors
 Analysis was designed by Xiao-Peng Song, Xi Li, Ziying Fan, and Xiya Li.
